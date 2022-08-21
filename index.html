@@ -1,17 +1,32 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
-    <title >banana</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <title>Sonic the Hedgehog</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="format-detection" content="telephone=no">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+        }
+        canvas {
+            margin: 30px auto;
+        }
+    </style>
 </head>
 
-<body id="t" class="offline">
-    <div id="messageBox" class="sendmessage">
-         <h1 style="text-align: center;font-family: 'Open Sans', sans-serif;">🍌</h1>
+<body>
 
-<audio src="/assets/BANANA.mp3" autoPlay loop></audio>
+    <div id="content"></div>
+    <!-- uncomment the line bellow for cordova feature -->
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+<script type="text/javascript" src="./dist/vendor.bundle.js"></script><script type="text/javascript" src="./dist/bundle.js"></script></body>
 
 </html>
